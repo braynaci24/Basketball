@@ -84,7 +84,6 @@ h1 {
 }
 .player {
   width: 20%;
-  height: 40%;
   background: #ffba00;
   float: left;
   margin: 4%;
@@ -121,10 +120,10 @@ h1 {
 .img-opacty img {
   width: 100%;
 }
-.information {
-  padding-top: 12px;
+.player-information {
+  padding: 40px 12px 40px 12px;
 }
-.information span {
+.player-information span {
   font-size: 20px;
   display: block;
   margin-top: 8px;
@@ -132,7 +131,6 @@ h1 {
   font-family: 'Noto Serif', serif;
 }
 .alignt {
-  margin-left: 25%;
 }
 .name {
   font-size: 20px;
