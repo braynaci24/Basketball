@@ -82,10 +82,13 @@ h1 {
 }
 .player {
   width: 20%;
-  height: 50%;
+  height: 40%;
   background: #ffba00;
   float: left;
-  margin: 30px 100px;
+  margin: 4%;
+}
+.player:first-child {
+  margin-left: 12%;
 }
 .dennis {
   width: 100%;
