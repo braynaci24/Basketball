@@ -70,8 +70,11 @@ h1 {
 .fa-instagram {
   color: #612087;
 }
-.big-title-lakers h1 {
+.big-title-lakers  a h1 {
   font-size: 100px;
+}
+.big-title-lakers a {
+  text-decoration: none;
 }
 .big-title-lakers:hover {
   color: #612087;
