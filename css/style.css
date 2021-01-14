@@ -17,7 +17,7 @@ h1 {
   font-size: 60px;
   width: 100%;
   font-weight: 900;
-  text-align: center;
+  padding-left: 66px;
   border-bottom: 2px solid #ffba00;
   color: #ffba00;
   line-height: 104px;
@@ -55,26 +55,27 @@ h1 {
   float: right;
   padding-top: 2%;
 }
-.position {
-  font-size: 40px;
+.icons i {
+  font-size: 30px;
+  margin-top: 2%;
   margin-right: 40px;
 }
 .fa-facebook-square {
-  color: #2962ff;
+  color: #612087;
 }
 .fa-twitter-square {
-  color: #00a2f5;
+  color: #612087;
 }
 .fa-instagram {
-  color: #dd2c74;
+  color: #612087;
 }
 .big-title-lakers h1 {
   font-size: 100px;
-  float: left;
 }
 .big-title-lakers:hover {
   color: #612087;
   cursor: pointer;
+  text-shadow: 2px 2px rgb(0,0,0,0.8);
 }
 .main {
   background: #222223;
@@ -90,14 +91,13 @@ h1 {
 .player:first-child {
   margin-left: 12%;
 }
-.dennis {
-  width: 100%;
-}
 .player h1 {
   font-size: 35px;
   line-height: 40px;
 }
 .img-opacty {
+  max-height: 190px;
+  overflow: hidden;
   position: relative;
 }
 .img-opacty a {
@@ -117,11 +117,25 @@ h1 {
 .img-opacty a:hover {
   color:  #ffba00;
 }
+.img-opacty img {
+  width: 100%;
+}
 .information {
   padding-top: 12px;
 }
 .information span {
   font-size: 20px;
+  display: block;
+  margin-top: 8px;
+  padding-left: 10px;
+  font-family: 'Noto Serif', serif;
+}
+.alignt {
+  margin-left: 25%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
   display: block;
   margin-top: 8px;
   padding-left: 10px;
