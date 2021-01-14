@@ -145,20 +145,19 @@ h1 {
   margin-left: 12%;
 }
 /* DETAY */
+.detail-container {
+  width: 60%;
+  margin: 0 auto;
+}
 .player-detail {
-  background: #222223;
   width: 100%;
   height: 100%;
-  position: relative;
-}
-.big-image img {
-  padding-left: 20%;
 }
 .big-image p {
   color: #fff;
+  width: 100%;
   line-height: 20px;
   padding-top: 2%;
-  padding-left: 20%;
   padding-right: 20%;
 }
 .box-images {
@@ -171,9 +170,6 @@ h1 {
 .box-img-text {
   background: #612087;
   margin-top: 1%;
-  width: 60.5%;
-  position: absolute;
-  left: 20%;
   overflow: hidden;
 }
 .box {
@@ -185,10 +181,8 @@ h1 {
   font-size: 25px;
 }
 .position-box {
-  position: absolute;
-  left: 20%;
-  top: 80%;
   background: #ffba00; 
+  overflow: hidden;
 }
 .box-2 {
   float: right;
