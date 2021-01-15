@@ -30,6 +30,7 @@ h1 {
   font-size: 30px;
   text-decoration: none;
   color: #ffba00;
+  display: block;
 }
 .menu-element ul li a:hover {
   text-decoration: underline;
@@ -228,4 +229,87 @@ h1 {
 }
 .has-drop-down:hover .drop-down-menu {
   display: block;
+}
+
+/* GIRLS */
+.height {
+  height: 89.1%;
+}
+
+/* TICKET */
+.ticket-general {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.ticket {
+  width: 70%;
+  height: 60%;
+  background: red;
+  margin: 0 auto;
+}
+.ticket-box {
+  width: 100%;
+  height: 50%;
+  background: #612087;
+  overflow: hidden;
+}
+.match-img {
+  width: 291px;
+  height: 291px;
+  float: left;
+}
+.ticket-box-information {
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 92%;
+  float: left;
+  overflow: hidden;
+}
+.ticket-box-information h1 {
+  color: #ffba00;
+  font-size: 55px;
+}
+.ticket-box-information span {
+  display: block;
+  margin-top: 1%;
+  color: #fff;
+  margin-bottom: 5%;
+}
+.ticket-box-information p {
+  margin-right: 10%;
+  font-size: 23px;
+  display: inline-block;
+  color: #ffba00;
+}
+.price {
+  position: relative;
+}
+.price a {
+  font-size: 30px;
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: #fff;
+}
+.price a:hover {
+  color: #ffba00;
+}
+.right-ticket-image {
+  float: right;
+  width: 291px;
+  height: 291px;
+}
+.ticket-color {
+  background: #ffba00;
+}
+.right h1 {
+  color: #612087;
+}
+.right p {
+  font-size: 23px;
+  color: #612087;
+}
+.price-color a:hover {
+  color: #612087;
 }
