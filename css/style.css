@@ -238,19 +238,15 @@ h1 {
 
 /* TICKET */
 .ticket-general {
-  width: 100%;
-  padding-top: 6%;
-  padding-bottom: 6%;
+  width: 70%;
+  padding-top: 3%;
+  margin: 0 auto;
 }
 .ticket {
-  width: 70%;
-  height: 60%;
-  background: red;
-  margin: 0 auto;
 }
 .ticket-box {
   width: 100%;
-  height: 50%;
+  margin-bottom: 5%;
   background: #612087;
   overflow: hidden;
 }
@@ -262,9 +258,7 @@ h1 {
 .ticket-box-information {
   margin-top: 2%;
   margin-left: 2%;
-  height: 92%;
   float: left;
-  overflow: hidden;
 }
 .ticket-box-information h1 {
   color: #ffba00;
