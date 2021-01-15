@@ -24,7 +24,7 @@ h1 {
   line-height: 104px;
 }
 .menu-element {
-  padding: 0 8%;
+  padding-left: 8%;
 }
 .menu-element ul li a {
   font-size: 30px;
@@ -200,4 +200,31 @@ h1 {
   color: #612087;
   padding-left: 3%;
   font-size: 25px;
+}
+.has-drop-down {
+  position: relative;
+}
+.drop-down-menu {
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1;
+  background: #ffba00;
+  display: none;
+  position: absolute;
+  padding-left: 10px;
+  top: 0px;
+  left: 100%;
+}
+.drop-down-menu ul li {
+  margin-top: 5%;
+  margin-bottom: 15px;
+}
+.drop-down-menu ul li a {
+  color: #612087;
+}
+.drop-down-menu ul li a:hover {
+  color: black;
+}
+.has-drop-down:hover .drop-down-menu {
+  display: block;
 }
