@@ -70,16 +70,17 @@ h1 {
 .fa-instagram {
   color: #612087;
 }
-.big-title-lakers  a h1 {
+.big-title-lakers  h1 a {
   font-size: 100px;
-}
-.big-title-lakers a {
   text-decoration: none;
 }
 .big-title-lakers:hover {
   color: #612087;
   cursor: pointer;
   text-shadow: 2px 2px rgb(0,0,0,0.8);
+}
+.big-title-lakers a:active {
+  color: black;
 }
 .main {
   background: #222223;
@@ -186,6 +187,7 @@ h1 {
   color: #ffba00;
   margin-top: 7%;
   font-size: 25px;
+  padding-right: 1%;
 }
 .position-box {
   background: #ffba00; 
@@ -196,5 +198,6 @@ h1 {
 }
 .color p {
   color: #612087;
+  padding-left: 3%;
   font-size: 25px;
 }
