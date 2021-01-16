@@ -305,3 +305,52 @@ h1 {
 .price-color a:hover {
   color: #612087;
 }
+
+@media (max-width: 1000px){
+  body {
+    background: #222223;
+  }
+  .menu {
+    display: none;
+  }
+  .player {
+    margin: 0px;
+    width: 40%;
+    margin: 5% 5%;
+  }
+  .player:first-child {
+    margin: 5%;
+  }
+  .player-information span {
+    font-size: 25px;
+  }
+  .player-information span.name {
+    font-size: 30px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1300px) and (min-width: 1000px) {
+  .player {
+    margin: 2%;
+    width: 29%;
+  }
+  .player:first-child {
+    margin: 2%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
